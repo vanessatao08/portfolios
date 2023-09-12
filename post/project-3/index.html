@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Project III: Financial Engineering Prediction on HS300 | Vanessa Tao</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Using  Prediction on HS300">
+    <meta name="generator" content="Hugo 0.102.2" />
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+
+    
+<link rel="stylesheet" href="https://vanessatao08.github.io/portfolios/ananke/css/main.min.css" >
+
+
+
+    
+    
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Project III: Financial Engineering Prediction on HS300" />
+<meta property="og:description" content="Using  Prediction on HS300" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://vanessatao08.github.io/portfolios/post/project-3/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-05-25T11:00:59-04:00" />
+<meta property="article:modified_time" content="2022-05-25T11:00:59-04:00" /><meta property="og:site_name" content="Vanessa Tao" />
+
+<meta itemprop="name" content="Project III: Financial Engineering Prediction on HS300">
+<meta itemprop="description" content="Using  Prediction on HS300"><meta itemprop="datePublished" content="2022-05-25T11:00:59-04:00" />
+<meta itemprop="dateModified" content="2022-05-25T11:00:59-04:00" />
+<meta itemprop="wordCount" content="1054">
+<meta itemprop="keywords" content="scene," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Project III: Financial Engineering Prediction on HS300"/>
+<meta name="twitter:description" content="Using  Prediction on HS300"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('https://vanessatao08.github.io/portfolios/images/Project3-0.jpeg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="https://vanessatao08.github.io/portfolios/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Vanessa Tao
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://vanessatao08.github.io/portfolios/about/" title="About page">
+              About
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://vanessatao08.github.io/portfolios/contact/" title="Contact page">
+              Contact
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://vanessatao08.github.io/portfolios/post/" title="Projects page">
+              Projects
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+    
+    <a href="https://www.instagram.com/van3ssa.ta08/" target="_blank" rel="noopener" class="instagram ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Instagram link" aria-label="follow on Instagram——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://github.com/VanessaTao8" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.linkedin.com/in/vanessa-t-9867391a1/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Project III: Financial Engineering Prediction on HS300</div>
+          
+            <div class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Using  Prediction on HS300
+            </div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        PROJECTS
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+      
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://vanessatao08.github.io/portfolios/post/project-3/&amp;title=Project%20III:%20Financial%20Engineering%20Prediction%20on%20HS300" class="ananke-social-link linkedin no-underline" aria-label="share on LinkedIn">
+        
+        <span class="icon"> <svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+        
+      </a>
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Project III: Financial Engineering Prediction on HS300</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-05-25T11:00:59-04:00">May 25, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><ol>
+<li>Calculate Volatility
+1.1  GARCH Model
+<!-- raw HTML omitted --></li>
+</ol>
+<p>The generalized autoregressive conditional heteroskedasticity model, known as the GARCH model, replaces high-order lagged terms of random disturbances with lagged terms of several covariances. This transforms conditional variance into an ARMA process. It has the advantage of tracking changes in variance over time and eliminating the volatility clustering in the residual sequence.The Shanghai and Shenzhen 300 Index showed a growth trend in 2020. Significant volatility in the Shanghai and Shenzhen stock markets mainly occurred around January, March, and July. Among these months, March saw a decline, while January and July witnessed an increase.</p>
+<p><figure><img src="https://vanessatao08.github.io/portfolios/images/Project3-1.png"/>
+</figure>
+
+<figure><img src="https://vanessatao08.github.io/portfolios/images/Project3-2.png"/>
+</figure>
+</p>
+<p>To further process the data and obtain daily price changes for the index, from the chart below, it can be observed that the overall stock market exhibits a fluctuating trend, with occasional larger fluctuations due to event impacts at specific time points. However, most of the time, it remains within a stable range of fluctuations. Therefore, the next step is to verify whether there is autocorrelation in the index.</p>
+<p><figure><img src="https://vanessatao08.github.io/portfolios/images/Project3-3.png"/>
+</figure>
+
+<figure><img src="https://vanessatao08.github.io/portfolios/images/Project3-4.png"/>
+</figure>
+</p>
+<p>From the chart above, it can be seen that the Shanghai and Shenzhen 300 Index fluctuates relatively steadily around its mean, indicating that the sequence is stationary. The partial autocorrelation function (PACF) plot also exhibits stable fluctuations without showing significant trailing behavior.</p>
+<p>In this study, the most commonly used GARCH (1,1) model was employed, with estimations conducted using rolling windows of 7 days, 30 days, and an increasing estimation window. In the GARCH model, historical data still contribute to trend analysis, and increasing the estimation window improves the accuracy of forecasts. Furthermore, using forecasted values of yield in the mean equation instead of their actual values results in each forecast error being incorporated into subsequent predictions. As the forecast horizon increases, the forecast results tend to deteriorate.</p>
+<p>1.2 Result Analysis</p>
+<p>The table presents real volatility for monthly returns and five different estimated volatilities. The following conclusions can be drawn:</p>
+<figure><img src="https://vanessatao08.github.io/portfolios/images/Project3-5.png"/>
+</figure>
+
+<p>When using the GARCH (1,1) model, longer forecast horizons result in poorer forecasts. This could be because forecasted values of yield in the mean equation are used instead of their actual values, leading to each forecast error being propagated into subsequent predictions.</p>
+<p>While GARCH models can eliminate heteroskedasticity, they exhibit an overly sensitive response to increasing volatility, leading to overfitting, especially during months of high volatility such as March and July. The GARCH model tends to overestimate volatility during these periods.</p>
+<p>Although historical sample variance estimation is generally considered less accurate than GARCH model estimation, the data in the table show that the 7-day historical sample variance estimation is the closest to actual volatility among the five methods. This could be because in most instances, the volatility of the sample is relatively low.</p>
+<p>These conclusions suggest that choosing the appropriate volatility estimation method should take into account the specific characteristics of the data and the time horizon of the forecast.</p>
+<ol start="2">
+<li>Verify the Volatility Smile Curve</li>
+</ol>
+<p>In empirical research, the implied volatility calculated using the traditional Black-Scholes option pricing model exhibits a phenomenon known as the &ldquo;volatility smile.&rdquo; This means that for options with the same expiration date and underlying asset but different strike prices, the implied volatility tends to be higher as the strike prices deviate further from the current market price of the underlying asset. Rubinstein (1985) extended the concept of the volatility smile by suggesting that it has a term structure, meaning the &ldquo;smile effect&rdquo; systematically depends on the time to expiration of the option. This smile effect is more pronounced in short-term options compared to long-term options.</p>
+<p><figure><img src="https://vanessatao08.github.io/portfolios/images/Project3-7.png"/>
+</figure>
+
+<figure><img src="https://vanessatao08.github.io/portfolios/images/Project3-8.png"/>
+</figure>
+</p>
+<p>Implied volatility can be determined by writing the corresponding equation using the Black-Scholes-Merton (BSM) option pricing formula. However, solving this equation directly is challenging because it lacks a closed-form solution. In this study, Python was used with the Newton-Raphson iterative method to calculate implied volatility. By inputting initial underlying asset prices, risk-free rates, and option parameters, implied volatilities were obtained for options with 15 days and 50 days to expiration. It was observed that the implied volatility first increases as the strike price deviates from the underlying asset&rsquo;s price, then decreases until it approaches the underlying asset&rsquo;s price, and finally starts to increase gradually again. This behavior is characteristic of the volatility smile. Furthermore, the graphical representation shows that the volatility smile is more pronounced in short-term options compared to long-term options.</p>
+<ol start="3">
+<li>Strategy Construction
+<!-- raw HTML omitted --></li>
+</ol>
+<p>3.1 Strategy Choosing
+In 2019, the Shanghai and Shenzhen 300 Index (CSI 300) rose from its initial level of 3010.65 points to a year-end closing price of 4096.58 points, representing a gain of approximately 36.07%. The total trading volume in the Shanghai and Shenzhen stock markets reached 127.4 trillion yuan, with an average daily trading volume of 522.2 billion yuan, marking a year-on-year increase of 40.7%.</p>
+<figure><img src="https://vanessatao08.github.io/portfolios/images/Project3-8.png"/>
+</figure>
+
+<p>Considering the moderately optimistic market sentiment at the end of 2019 and the mild macroeconomic policies (assuming the occurrence of the pandemic was not predicted), it was believed that the market trend for 2020 would be cautiously bullish, making it suitable for employing a bull market spread strategy.</p>
+<p>3.2 Choosing strategic risk indicator</p>
+<p>Selecting total return, annualized return, volatility, Sharpe ratio, maximum drawdown, and the profit-to-maximum drawdown ratio (Calmar ratio) as evaluation indicators. Total return and annualized return measure the profit situation, while volatility, Sharpe ratio, and others measure the risk situation of this portfolio strategy.</p>
+<p>The results presented in the above strategy show that:</p>
+<p>Returns: The bull market spread strategy achieved a return of 23%, slightly lower than the 25.5% return of the Shanghai and Shenzhen 300 Index.</p>
+<p>Drawdown: The bull market spread strategy had a drawdown of 6.5%, significantly lower than the 16.1% drawdown of the Shanghai and Shenzhen 300 Index.</p>
+<p>Due to the characteristic of limited downside risk and limited upside return in the bull market spread strategy, it effectively controlled drawdown during significant index declines. However, it couldn&rsquo;t fully capture the index gains during strong market upswings, as evidenced by the data. The lower drawdown in the bull market spread strategy compared to the index led to a higher Sharpe ratio despite the lower returns. Additionally, the Calmar ratio of the portfolio was much higher than the corresponding value for the Shanghai and Shenzhen 300 Index.
+<figure><img src="https://vanessatao08.github.io/portfolios/images/Project3-9.png"/>
+</figure>
+
+Based on the above results, it can be concluded that the risk performance of the bull market spread call option strategy portfolio is better than the market performance.</p>
+<ul class="pa0">
+  
+   <li class="list di">
+     <a href="https://vanessatao08.github.io/portfolios/tags/scene/" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">scene</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="https://vanessatao08.github.io/portfolios/post/project-2/">Project II: Canteen Distribution Optimization</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="https://vanessatao08.github.io/portfolios/post/project-1/">Project I: Pricing of Shanghai Real Estate</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://vanessatao08.github.io/portfolios/" >
+    &copy;  Vanessa Tao 2023 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+    
+    <a href="https://www.instagram.com/van3ssa.ta08/" target="_blank" rel="noopener" class="instagram ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="Instagram link" aria-label="follow on Instagram——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M42.271,26.578v-0.006c0.502,0,1.005,0.01,1.508-0.002  c0.646-0.017,1.172-0.57,1.172-1.217c0-0.963,0-1.927,0-2.89c0-0.691-0.547-1.24-1.236-1.241c-0.961,0-1.922-0.001-2.883,0  c-0.688,0.001-1.236,0.552-1.236,1.243c-0.001,0.955-0.004,1.91,0.003,2.865c0.001,0.143,0.028,0.291,0.073,0.426  c0.173,0.508,0.639,0.82,1.209,0.823C41.344,26.579,41.808,26.578,42.271,26.578z M33,27.817c-3.384-0.002-6.135,2.721-6.182,6.089  c-0.049,3.46,2.72,6.201,6.04,6.272c3.454,0.074,6.248-2.686,6.321-6.043C39.254,30.675,36.462,27.815,33,27.817z M21.046,31.116  v0.082c0,4.515-0.001,9.03,0,13.545c0,0.649,0.562,1.208,1.212,1.208c7.16,0.001,14.319,0.001,21.479,0  c0.656,0,1.215-0.557,1.215-1.212c0.001-4.509,0-9.02,0-13.528v-0.094h-2.912c0.411,1.313,0.537,2.651,0.376,4.014  c-0.161,1.363-0.601,2.631-1.316,3.803s-1.644,2.145-2.779,2.918c-2.944,2.006-6.821,2.182-9.946,0.428  c-1.579-0.885-2.819-2.12-3.685-3.713c-1.289-2.373-1.495-4.865-0.739-7.451C22.983,31.116,22.021,31.116,21.046,31.116z   M45.205,49.255c0.159-0.026,0.318-0.049,0.475-0.083c1.246-0.265,2.264-1.304,2.508-2.557c0.025-0.137,0.045-0.273,0.067-0.409  V21.794c-0.021-0.133-0.04-0.268-0.065-0.401c-0.268-1.367-1.396-2.428-2.78-2.618c-0.058-0.007-0.113-0.02-0.17-0.03H20.761  c-0.147,0.027-0.296,0.047-0.441,0.08c-1.352,0.308-2.352,1.396-2.545,2.766c-0.008,0.057-0.02,0.114-0.029,0.171V46.24  c0.028,0.154,0.05,0.311,0.085,0.465c0.299,1.322,1.427,2.347,2.77,2.52c0.064,0.008,0.13,0.021,0.195,0.03H45.205z M33,64  C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://github.com/VanessaTao8" target="_blank" rel="noopener" class="github ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="GitHub link" aria-label="follow on GitHub——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+    
+    <a href="https://www.linkedin.com/in/vanessa-t-9867391a1/" target="_blank" rel="noopener" class="linkedin ananke-social-link link-transition stackoverflow link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" aria-label="follow on LinkedIn——Opens in a new window">
+      
+        <span class="icon"><svg style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span>
+      
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000"  xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;"/>
+</svg>
+</span></a>
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scene on Vanessa Tao</title>
+    <link>https://vanessatao08.github.io/portfolios/tags/scene/</link>
+    <description>Recent content in scene on Vanessa Tao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 May 2022 11:00:59 -0400</lastBuildDate><atom:link href="https://vanessatao08.github.io/portfolios/tags/scene/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Project III: Financial Engineering Prediction on HS300</title>
+      <link>https://vanessatao08.github.io/portfolios/post/project-3/</link>
+      <pubDate>Wed, 25 May 2022 11:00:59 -0400</pubDate>
+      
+      <guid>https://vanessatao08.github.io/portfolios/post/project-3/</guid>
+      <description>Calculate Volatility 1.1 GARCH Model The generalized autoregressive conditional heteroskedasticity model, known as the GARCH model, replaces high-order lagged terms of random disturbances with lagged terms of several covariances. This transforms conditional variance into an ARMA process. It has the advantage of tracking changes in variance over time and eliminating the volatility clustering in the residual sequence.The Shanghai and Shenzhen 300 Index showed a growth trend in 2020. Significant volatility in the Shanghai and Shenzhen stock markets mainly occurred around January, March, and July.</description>
+    </item>
+    
+    <item>
+      <title>Project II: Canteen Distribution Optimization</title>
+      <link>https://vanessatao08.github.io/portfolios/post/project-2/</link>
+      <pubDate>Sun, 10 Apr 2022 11:00:59 -0400</pubDate>
+      
+      <guid>https://vanessatao08.github.io/portfolios/post/project-2/</guid>
+      <description>Introduction The last mile problem has always been a major challenge for logistics delivery. During the pandemic, it took on a new variant on campus - the student meal problem. At first, when the campus was locked down, professors and staff acted as “deliverers&amp;quot; and sent meals to all buildings, similar to the home delivery mode in the last mile. When the campus gradually returned normal, students can go to the canteens to buy meals, similar to the pick-up model.</description>
+    </item>
+    
+    <item>
+      <title>Project I: Pricing of Shanghai Real Estate</title>
+      <link>https://vanessatao08.github.io/portfolios/post/project-1/</link>
+      <pubDate>Wed, 09 Jun 2021 10:58:08 -0400</pubDate>
+      
+      <guid>https://vanessatao08.github.io/portfolios/post/project-1/</guid>
+      <description>1.Discription
+In recent years, the situation that more and more new citizens flowing into Shanghai has made it difficult for young people to afford housing. Therefore, from the perspective of buyers, I tried to explore the prcing characteristics of new houses and second-hand houses, find possible price depressions, and provide suggestions for buying houses.
+Using web scraping and visualization tools, I found the distributional property of housing prices in Shanghai, and the relationship between housing and railway stations.</description>
+    </item>
+    
+  </channel>
+</rss>
